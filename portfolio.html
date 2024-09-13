@@ -1,68 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="contanier">
+        <nav>
+            <div class="logo">
+                <h1>PortFolio</h1>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About</a></li>
+                 <li><a href="#contact">Contact</a></li>
 
-  
-  <header>
-    
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
 
-  
-  <section id="about">
-    <h2>About Me</h2>
-    <div class="profile-section">
-        <img src="ankitaimg.jpeg" alt="profile picture"
-        class="profile-pic">
+        </nav>
+
+        <div class="main">
+            <div class="mainText">
+                <h3>Hello I am,</h3>
+                <h1>Ankita solanki</h1>
+                <p>Hello "Ankita solanki" a passionate  student currently  pursuring my Bachelor of Computer Applications (BCA) at [Sage university indore] with a deep interest in programming, web devolopment,<br>and database management, 
+                    I am continuously exploring the latest technologies and exploring my skill set. I enjoy problem-solving and building creative solutions through code. 
+                  <br>
+                  </p>
+                <button onclick="downlodeBtn()">Downlode CV</button>
+            </div>
+            <img src="PORTFOLIO PROFILE.jpeg" alt="">
         </div>
+
+        <div id="about">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+            <div class="about">
+                <div class="aboutText">
+                    <h1>Ankita solanki</h1>
+                    <p>Fresher Fullstack Developer</p>
+                    
+                    <p>I am a motivated and detail-oriented full stack developer with a strong foundation in both front-end and back-end technologies.<br> Recently completed a Bachelor's degree in Computer Science (or relevant field) and have hands-on experience in developing web applications using modern technologies like HTML, CSS, JavaScript, </br><br> I am passionate about coding, problem-solving, and continuously learning new tools and techniques to stay up-to-date in the ever-evolving tech industry.
+                      </p>
+
+                </div>
+                <img src="PORTFOLIO PROFILE.jpeg" alt="">
+            </div>
+        </div>
+
         
-        <div class="about-content">
-    <p>Hello I'm Ankita solanki" a passionate  student currently  pursuring my Bachelor of Computer Applications (BCA) at [Sage university indore] with a deep interest in programming, web devolopment ,and database management, 
-        I am continuously exploring the latest technologies and exploring my skill set.<div> I enjoy problem-solving and building creative solutions through code. As a BCA student , 
-            I have gained proficiency in various programming languages like C,C++, Java,and I am comfortable working with tools such as HTML,CSS,and  javascript  for web devolopment.</div>
-        </p>
-      </div>
-  </section>
+            </div>
+        </div>
 
-  
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Project 1</h3>
-      <p>A description of my first project.</p>
+        
+        <div id="contact">
+            <div class="head">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="contact">
+                <input type="text" placeholder="Enter Your Name" id="name">
+                <input type="text" placeholder="Enter Your Email" id="email">
+                <textarea name="" id="msg" cols="40" rows="6" value="" placeholder="Enter Message..."></textarea>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="text">
+                <p>Privacy Policy</p>
+                <p>Term & Condition</p>
+                <p>Disclaimer</p>
+
+            </div>
+        </div>
     </div>
-    <div class="project-card">
-      <h3>Project 2</h3>
-      <p>A description of my second project.</p>
-    </div>
-  </section>
-
-  
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: ankitasolanki202004@gmail.com</p>
-    <p>contact number :9131227841</p>
-    <p>linkedin id:https://www.linkedin.com/in/ankita-solanki-033429328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
-    <p>instagram idhttps://www.instagram.com/ankiiita_solanki?igsh=bmlyMXV1cDc1ZG9j:</p>
-  </section>
-
-  
-  <footer>
-    <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
-  </footer>
-
+    <script src="portfolio.js"></script>
 </body>
 </html>
